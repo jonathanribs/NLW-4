@@ -1,6 +1,9 @@
+import 'reflect-metadata'
 import express, { response } from 'express';
+import "./database";
 
 const app = express();
+
 
 // http://localhost:3333/users
 app.get("/users", (request, response) => {
