@@ -20,3 +20,11 @@ Tive alguns erros que só depois descobri que a instrutora digita algumas coisas
  - Algumas diferenças e equivalências do que aprendi com o Spring
  - Como criar model e controller em node.js
 
+
+## Dia 3
+Separando responsabilidades e criando testes automatizados
+
+#### Principais aprendizados para mim
+ - Mais algumas referências do que o código em node.js difere do código em java
+ - Costume com os atalhos do VSCode
+ - Como criar testes e separar o momento de teste do momento de desenvolvimento
