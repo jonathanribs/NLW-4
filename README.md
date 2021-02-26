@@ -28,3 +28,15 @@ Separando responsabilidades e criando testes automatizados
  - Mais algumas referências do que o código em node.js difere do código em java
  - Costume com os atalhos do VSCode
  - Como criar testes e separar o momento de teste do momento de desenvolvimento
+
+
+## Dia 4
+Mandando emails. 
+
+Foi necessário recorrer ao Discord para resolver alguns problemas que apareceram decorrente da diferença de se usar Linux e Windows.
+
+#### Principais aprendizados para mim
+ - Criar tabelas relacionadas entre si
+ - Enviar email pelo Nodemailer
+ - Criar templates com Handlebars
+ - Maior entendimento de algumas características próprias do node.js, como uso de chaves e colchetes, async, await, export default, desestruturação etc...
