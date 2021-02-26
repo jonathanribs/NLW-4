@@ -29,7 +29,7 @@ class SendMailService {
 
     async execute(to: string, subject: string, variables: object, path: string) {
 
-        const templateFileContent = fs.readFileSync(path).toString("utf-8");
+        const templateFileContent = fs.readFileSync(path).toString("utf8");
 
         const mailTemplateParse = handlebars.compile(templateFileContent);
 
@@ -39,7 +39,7 @@ class SendMailService {
             to,
             subject,
             html,
-            from: "NPS <noreplay@nps.com.br",
+            from: "NPS <noreplay@nps.com.br>",
         });
 
         console.log("Message sent: %s", message.messageId);
