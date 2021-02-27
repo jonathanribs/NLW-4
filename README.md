@@ -40,3 +40,13 @@ Foi necessário recorrer ao Discord para resolver alguns problemas que aparecera
  - Enviar email pelo Nodemailer
  - Criar templates com Handlebars
  - Maior entendimento de algumas características próprias do node.js, como uso de chaves e colchetes, async, await, export default, desestruturação etc...
+
+
+## Dia 5
+Calculando o NPS e validação de dados.
+
+#### Principais aprendizados para mim
+ - Receber parâmetros fora do body
+ - Calculo do nps (Net Promoter Score)
+ - Validação de dados com a biblioteca yup
+ - Forma mais limpa de se tratar erros
